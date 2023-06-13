@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: relative;
+	height: 100vh;
+	background-color: #f7eeee;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 50px;
+}
+.navbar-collapse,
+.navbar-brand {
+	z-index: 2;
+	margin-left: 150px;
+}
+
+.navbar {
+	z-index: 5;
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+.navimg {
+	width: 100px;
+	height: 80px;
+	margin-left: 180px;
+}
+.nav-link {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #30c5ff;
+}
+
+#first {
+	z-index: 0;
+	/* background-color: #b5b3e2; */
+	height: 100vh;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.navbar-nav {
+	margin-left: 50%;
+	font-size: 20px;
+}
+.ftext {
+	position: relative;
+	top: 150px;
+	left: 200px;
+	width: 200px;
+	height: 200px;
+	font-size: 30px;
+	color: white;
+	/* background-color: tomato; */
+}
+
+.hero-img {
+	position: relative;
+	height: 100vh;
+	background-image: url('../img/jason-goodman-Oalh2MojUuk-unsplash\ \(1\).jpg         ');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: -1;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+
+.hero-shadow {
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: -10;
+}
+.hero-text {
+	height: 250px;
+	width: 550px;
+	position: absolute;
+	left: 50px;
+	top: 150px;
+	color: white;
+}
+h1 {
+	font-size: 30px;
+}
+#second {
+	height: 100vh;
+	padding-left: 15%;
+	padding-right: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h2 {
+	position: absolute;
+}
+.carusel {
+	z-index: 0;
+	width: 1000px;
+	height: 750px;
+	background-color: tomato;
+}
+#third {
+	height: 100vh;
+	padding-left: 15%;
+	padding-right: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.jajko {
+	width: 1000px;
+	height: 750px;
+	background-color: tomato;
+}
